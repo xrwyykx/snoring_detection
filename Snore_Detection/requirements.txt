@@ -1,0 +1,9 @@
+numpy
+pandaspip
+scikit-learn
+librosa
+tensorflow
+keras
+matplotlib
+pytorch
+pytorch_lightning
