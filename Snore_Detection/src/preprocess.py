@@ -23,6 +23,7 @@
 - N_MFCC: MFCC特征数
 - TIME_STEPS: 时间步长
 - AUGMENTATION: 是否启用数据增强
+- test
 """
 
 import os
