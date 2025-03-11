@@ -3,11 +3,11 @@ import shutil
 from sklearn.model_selection import train_test_split
 
 
-snoring_dir = 'D:\\hansheng\\Snore_Detection_Project-main\\Snore_Detection\\data\\1'
-non_snoring_dir = 'D:\\hansheng\\Snore_Detection_Project-main\\Snore_Detection\\data\\0'
+snoring_dir = 'D:\\hansheng\\snoring_detection\\Snore_Detection\\data\\1'
+non_snoring_dir = 'D:\\hansheng\\snoring_detection\\Snore_Detection\\data\\0'
 
-train_dir = 'D:\\hansheng\\Snore_Detection_Project-main\\Snore_Detection\\src\data\\train'
-test_dir = 'D:\\hansheng\\Snore_Detection_Project-main\\Snore_Detection\\src\\data\\test'
+train_dir = 'D:\\hansheng\\snoring_detection\\Snore_Detection\\src\data\\train'
+test_dir = 'D:\\hansheng\\snoring_detection\\Snore_Detection\\src\\data\\test'
 
 os.makedirs(os.path.join(train_dir, 'snoring'), exist_ok=True)
 os.makedirs(os.path.join(train_dir, 'non-snoring'), exist_ok=True)

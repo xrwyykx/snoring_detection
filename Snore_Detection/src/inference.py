@@ -94,8 +94,8 @@ def predict_snore(file_path, model_path):
 if __name__ == "__main__":
 
     inference_audio_dir = 'inference_audios'
-    model_path = 'models/final_snore_detection_model.h5'
-    
+    model_path = 'D:\\hansheng\\snoring_detection\\Snore_Detection\\models\\final_model.h5'
+
 
     for audio_file_name in os.listdir(inference_audio_dir):
 
